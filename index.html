@@ -7,100 +7,126 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #1B1F3B;
-            color: #F8F9FA;
+            font-family: 'Times New Roman', serif;
+            background-color: #E5E5E3;
+            color: #333;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #2C6975;
-            padding: 20px;
+            background: #D5D5D3;
             text-align: center;
+            padding: 50px;
+            color: #2C2C2C;
+            font-size: 28px;
+            font-weight: bold;
         }
-        header h1 {
-            margin: 0;
-            color: #D4AF37;
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.1);
         }
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: #F8F9FA;
+        nav a {
+            color: #2C2C2C;
             text-decoration: none;
+            margin: 0 15px;
             font-weight: bold;
         }
         section {
-            padding: 20px;
-            max-width: 800px;
+            padding: 30px;
+            max-width: 900px;
             margin: auto;
+            line-height: 1.6;
         }
         h2 {
-            color: #D4AF37;
+            font-size: 28px;
+            color: #2C2C2C;
+            margin-bottom: 15px;
+        }
+        .highlight {
+            font-size: 38px;
+            font-weight: bold;
+            text-transform: uppercase;
         }
         footer {
-            background-color: #4A4E69;
+            background: #2C2C2C;
+            color: white;
             text-align: center;
-            padding: 10px;
+            padding: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Vikraman Kannappan Sankar</h1>
+        <h1 class="highlight">Vikraman Kannappan Sankar</h1>
         <p>Data Migration & Production Support Specialist</p>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
     </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
     
     <section id="about">
         <h2>About Me</h2>
-        <p>Experienced data migration and production support professional skilled in ETL, Python, SQL, and cloud technologies.</p>
+        <p>Highly motivated <strong>Data Migration and Production Support Specialist</strong> with expertise in <strong>ETL, SQL, Python, and cloud-based solutions</strong>. Passionate about <strong>optimizing database performance</strong>, enhancing data pipelines, and solving complex challenges. Adept at <strong>troubleshooting</strong> and ensuring seamless transitions in large-scale data environments.</p>
+        <p>With a proven track record in <strong>AWS Redshift migration</strong> and <strong>process automation</strong>, I bring <strong>innovative problem-solving skills</strong> and a deep understanding of <strong>data integrity, governance, and scalability</strong>.</p>
     </section>
     
     <section id="experience">
-        <h2>Experience</h2>
+        <h2>Professional Experience</h2>
         <p><strong>Senior Software Engineer</strong> - TEKsystems (2022-2023)</p>
-        <p>Migrated load plans to AWS Redshift, improved processing efficiency, and resolved production issues.</p>
+        <ul>
+            <li>Led data migration projects from Oracle to <strong>AWS Redshift</strong>, optimizing load times by <strong>40%</strong>.</li>
+            <li>Developed <strong>ETL pipelines</strong> to streamline data flow, reducing manual intervention by <strong>60%</strong>.</li>
+            <li>Provided <strong>24/7 production support</strong>, ensuring minimal downtime.</li>
+        </ul>
         <p><strong>Software Engineer</strong> - Data Terrain (2021-2022)</p>
-        <p>Optimized ETL workflows and analyzed database structures.</p>
+        <ul>
+            <li>Designed <strong>efficient ETL workflows</strong>, improving <strong>data processing speeds</strong>.</li>
+            <li>Analyzed and <strong>optimized SQL queries</strong>, reducing execution time by <strong>30%</strong>.</li>
+            <li>Collaborated with cross-functional teams to enhance <strong>data accuracy</strong> and <strong>reporting capabilities</strong>.</li>
+        </ul>
+        <p><strong>Junior Executive</strong> - Tata Communications Transformation Services (2020-2021)</p>
+        <ul>
+            <li>Provided direct support for client database operations, optimizing complex <strong>SQL Server</strong> queries to enhance retrieval speed.</li>
+            <li>Reduced data extraction errors by <strong>30%</strong> through improved quality control checks.</li>
+        </ul>
+	
     </section>
     
     <section id="projects">
-        <h2>Projects</h2>
+        <h2>Highlighted Projects</h2>
         <ul>
-            <li><a href="https://github.com/VikramanKS/Projects/tree/main/Report%20Generator">Report Generator</a></li>
-            <li><a href="https://github.com/vikramanks/Projects/tree/main/medical_data_extraction">Medical Data Extraction</a></li>
-            <li><a href="https://drive.google.com/file/d/1QkD9QOMyx0DjZNpwxqIZ7P2EJP9KSuM1/view">Zomato Sales Analysis</a></li>
+            <li><strong>Report Generator:</strong> Automates financial reporting, reducing manual efforts by <strong>80%</strong>. <a href="https://github.com/VikramanKS/Projects/tree/main/Report%20Generator">View Project</a></li>
+            <li><strong>Medical Data Extraction:</strong> Extracts critical healthcare insights using <strong>NLP & ML</strong>. <a href="https://github.com/vikramanks/Projects/tree/main/medical_data_extraction">View Project</a></li>
+            <li><strong>Zomato Sales Analysis:</strong> Conducted <strong>deep analytics</strong> on restaurant sales trends. <a href="https://drive.google.com/file/d/1QkD9QOMyx0DjZNpwxqIZ7P2EJP9KSuM1/view">View Report</a></li>
         </ul>
     </section>
     
     <section id="skills">
-        <h2>Skills</h2>
-        <p>Python, SQL, Power BI, MySQL, Oracle, PostgreSQL, AWS Redshift, ETL, Snaplogic.</p>
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Programming: <strong>Python, SQL, Shell Scripting</strong></li>
+            <li>Databases: <strong>MySQL, Oracle, PostgreSQL, AWS Redshift</strong></li>
+            <li>ETL Tools: <strong>Snaplogic, Informatica</strong></li>
+            <li>Cloud Platforms: <strong>AWS (EC2, S3, Redshift)</strong></li>
+            <li>BI & Reporting: <strong>Power BI, Tableau</strong></li>
+        </ul>
     </section>
     
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:vikramanshankar@gmail.com" style="color:#D4AF37;">vikramanshankar@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/vikraman-ks" style="color:#D4AF37;">linkedin.com/in/vikraman-ks</a></p>
-        <p>GitHub: <a href="https://github.com/VikramanKS" style="color:#D4AF37;">github.com/VikramanKS</a></p>
+        <h2>Get in Touch</h2>
+        <p>Email: <a href="mailto:vikramanshankar@gmail.com">vikramanshankar@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/vikraman-ks">linkedin.com/in/vikraman-ks</a></p>
+        <p>GitHub: <a href="https://github.com/VikramanKS">github.com/VikramanKS</a></p>
     </section>
     
     <footer>
-        <p>&copy; 2025 Vikraman Kannappan Sankar</p>
+        <p>&copy; 2025 Vikraman Kannappan Sankar | Data Migration & Production Support Specialist</p>
     </footer>
 </body>
 </html>
